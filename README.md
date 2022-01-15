@@ -10,7 +10,7 @@ This project tries to classify tweets as real or fake depending on the tweet tex
 Follow these steps to build this project in your local system:
 1. Install all the dependencies using the **requirements.txt** file
 2. The **data_preparation** notebook is used to create the final training dataset. You can directly extact the **data zip file** and find the **training dataset** there. You can also upload this folder to Azure using the **upload_data** script
-3. Next, you could add any more data to the existing dataset and can use this combined data to train your BERT model in your local using the **train notebook**. This noteboook is a direct adaptation of this notebook built by Prateek Joshi (https://github.com/prateekjoshi565/Fine-Tuning-BERT).
+3. Next, you could add any more data to the existing dataset and can use this combined data to train your BERT model in your local using the **train notebook.
 4. Conversely, you can also train the model on Azure using the **run-training-script** file which internally runs the **train** script in the src folder.
 5. Once the model is ready you can register the model in Azure and can then build you **echo_score** script where you write the code to initialize your model and generate predictions.
 6. This script will be used while deploying your model using the **deploy** script. Note that the existing code currently deploys code on **Azure Container Instances**, but you can also deploy it on Azure Kubernetes Services with minimal code change.
