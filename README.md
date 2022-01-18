@@ -17,7 +17,8 @@ Follow these steps to build this project in your local system:
 7. Once all these steps are done, you have an ACI endpoint ready which you can then use to generate predictions directly for your test data.
 8. Next, you need to build your **inference pipeline**. In this case, the **predict** script is the one that takes in data from blob storage and generates predictions for that file. In case you have a dataset that you wish to generate predictions for, you could use the **inference** script instead.
 9. I also have a **receiver** script which waits for a message from the data extraction pipeline (handled by a different team member) and runs the predict script whenever data for any request is ready in the blob storage. This script might not be useful for someone not related to the project.
-
+10. project link.
+Fake--News-Detection-using-Machine-Learning-BERT-
 ## Datasets Used
 * LIAR
 * ISOT Fake News
@@ -27,10 +28,11 @@ Follow these steps to build this project in your local system:
 * Kaggle Fake News Detection
 * NBC Election Troll Tweets 2016
 * Fake News on Twitter 2016 viral tweets
+* 
 
 ## Demo Video
 
-link
+link : https://camo.githubusercontent.com/2f294fb92cf02a52e3bf523275c2c7889d2b416d7f3a5eb605267d18099cd0d9/68747470733a2f2f692e696d6775722e636f6d2f326c685255486f2e676966
 
 ## Steps to run a demo
 
