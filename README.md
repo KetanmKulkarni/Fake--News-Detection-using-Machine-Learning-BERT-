@@ -34,7 +34,10 @@ Fake--News-Detection-using-Machine-Learning-BERT-
 
 link : https://camo.githubusercontent.com/2f294fb92cf02a52e3bf523275c2c7889d2b416d7f3a5eb605267d18099cd0d9/68747470733a2f2f692e696d6775722e636f6d2f326c685255486f2e676966
 
-## Steps to run a demo
+## Screenshot
 
-1. 
+![Screenshot_20220118_111115](https://user-images.githubusercontent.com/91944867/149877788-9d31585a-a062-4946-81ac-b935488d055c.jpg)
+
+
+
 
